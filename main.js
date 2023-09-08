@@ -61,6 +61,11 @@ for (let i = 0; i < symmetricalCapitals.length; i++){
 // Challenge 6
 // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end simply by adding them in the following line, and then console.log out each value individually.
 const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
+fibonacciNumbers.unshift(35);
+fibonacciNumbers.push(52, 44);
+for(let i = 0; i < fibonacciNumbers.length; i++){
+  console.log(fibonacciNumbers[i]);
+}
 
 
 // Challenge 7
