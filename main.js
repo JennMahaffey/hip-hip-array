@@ -86,7 +86,9 @@ for(let i = 0; i < newArray.length; i++){
 
 // Challenge 9
 // Loop through the `students` array from Challenge 1, starting at index 3 and ending at index 10 (INCLUSIVE), logging out each value individually.
-
+for(let i = 3; i <= 10; i++){
+  console.log(students[i]);
+}
 
 // Challenge 10
 // Loop through the `students` array from Challenge 1, making a COPY of the array, starting at index 3 and ending at index 10 (INCLUSIVE). This is very similar to string building; create a new array, loop through the old one, and put values from the original in the new one. Then log out each value of the copy indivudally.
