@@ -122,7 +122,8 @@ for(let i = 0; i < dinosaurs.length; i++){
 
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
-
+const dinos = dinosaurs.join("*")
+console.log(dinos)
 
 
 // Challenge 14
