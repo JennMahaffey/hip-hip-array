@@ -115,15 +115,15 @@ for(let i = 0; i < students.length; i++){
 // Challenge 12
 // Pull the items at indices 4-6 (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
 const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
-
-
-// Challenge 13
-// Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
-const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
 dinosaurs.splice(4, 3);
 for(let i = 0; i < dinosaurs.length; i++){
   console.log(dinosaurs[i])
 }
+
+// Challenge 13
+// Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
+
+
 
 // Challenge 14
 // Use .reverse to reverse the dinosaur array and then log out the original array. .reverse DOES change the original array.
