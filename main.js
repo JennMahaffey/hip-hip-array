@@ -22,7 +22,8 @@ const students = [
   'Arnold',
   'Andy'
 ];
-
+for(let i = 0; i < students.length; i++)
+console.log(students[i]);
 
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
