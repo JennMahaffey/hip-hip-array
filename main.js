@@ -103,6 +103,13 @@ for(let i = 0; i < newStudentArray.length; i++){
 
 // Challenge 11
 // Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the original array didn't get any values taken out of it, because `slice` does NOT modify the original array.
+const studentCopy = students.slice(3, 11);
+for(let i = 0; i < studentCopy.length; i++){
+  console.log(studentCopy[i])
+}
+for(let i = 0; i < students.length; i++){
+  console.log(students[i])
+}
 
 
 // Challenge 12
